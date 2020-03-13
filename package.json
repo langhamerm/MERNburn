@@ -1,38 +1,40 @@
 {
   "name": "mernburn",
-  "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node test.js"
   },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/langhamerm/MERNburn.git"
-  },
-
-  "bugs": {
-    "url": "https://github.com/langhamerm/MERNburn/issues"
-  },
-  "homepage": "https://github.com/langhamerm/MERNburn#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "cool-ascii-faces": "^1.3.4",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "ejs": "^2.5.6",
     "express": "^4.17.1",
-    "expresss": "0.0.0",
+    "materialize-css": "^1.0.0-rc.2",
     "mongoose": "^5.9.4",
+    "pg": "^7.18.2",
     "react-bootstrap": "^1.0.0-beta.17"
   },
-  "engines": {
-    "node": "10.16.x",
-    "npm": "6.x"
-  }
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
