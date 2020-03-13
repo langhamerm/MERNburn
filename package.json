@@ -7,12 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/langhamerm/MERNburn.git"
   },
-  "author": "",
-  "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/langhamerm/MERNburn/issues"
   },
@@ -25,5 +30,9 @@
     "expresss": "0.0.0",
     "mongoose": "^5.9.4",
     "react-bootstrap": "^1.0.0-beta.17"
+  },
+  "engines": {
+    "node": "10.16.x",
+    "npm": "6.x"
   }
 }
