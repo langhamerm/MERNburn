@@ -1,5 +1,10 @@
 {
+  "homepage": "https://langhamerm.github.io/mern-x",
   "name": "mern-x",
+  "engines": {
+    "node": "10.16.x",
+    "npm": "6.9.x"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +19,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
-  "scripts": {
+  "scripts": {  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
