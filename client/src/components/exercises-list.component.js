@@ -17,7 +17,7 @@ const Exercise = props => (
 export default class ExercisesList extends Component {
   constructor(props) {
     super(props);
-
+    console.log(props);
     this.deleteExercise = this.deleteExercise.bind(this)
 
     this.state = {exercises: []};
@@ -26,6 +26,7 @@ export default class ExercisesList extends Component {
   componentDidMount() {
     axios.get('http://localhost:5000/exercises/')
       .then(response => {
+        console.log(response);
         this.setState({ exercises: response.data })
       })
       .catch((error) => {

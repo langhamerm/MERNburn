@@ -23,6 +23,7 @@ export default class EditExercise extends Component {
   }
 
   componentDidMount() {
+    
     axios.get('http://localhost:5000/exercises/'+this.props.match.params.id)
       .then(response => {
         this.setState({
@@ -38,6 +39,7 @@ export default class EditExercise extends Component {
 
     axios.get('http://localhost:5000/users/')
       .then(response => {
+        console.log(response);
         if (response.data.length > 0) {
           this.setState({
             users: response.data.map(user => user.username),
@@ -51,24 +53,28 @@ export default class EditExercise extends Component {
   }
 
   onChangeUsername(e) {
+    console.log(e);
     this.setState({
       username: e.target.value
     })
   }
 
   onChangeDescription(e) {
+    console.log(e);
     this.setState({
       description: e.target.value
     })
   }
 
   onChangeDuration(e) {
+    console.log(e);
     this.setState({
       duration: e.target.value
     })
   }
 
   onChangeDate(date) {
+    console.log(date);
     this.setState({
       date: date
     })
