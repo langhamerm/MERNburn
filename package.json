@@ -1,0 +1,29 @@
+{
+  "name": "mernburn",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langhamerm/MERNburn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langhamerm/MERNburn/issues"
+  },
+  "homepage": "https://github.com/langhamerm/MERNburn#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "expresss": "0.0.0",
+    "mongoose": "^5.9.4",
+    "react-bootstrap": "^1.0.0-beta.17"
+  }
+}
